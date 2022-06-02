@@ -23,8 +23,8 @@ jobs:
         python-version: 3.5
     - name: setup env & install getproxy
       run: |
-        git config --global user.name "crackmag"
-        git config --global user.email "valya.spaces@gmail.com"
+        git config --global user.name "fastbotovitchROSOLL"
+        git config --global user.email "fastbotovitch@yandex.ru"
         pip install git+https://github.com/fate0/getproxy.git@master
     - name: run getproxy
       run: |
@@ -36,7 +36,7 @@ jobs:
         git init
         git add .
         git commit -m "`env TZ=Asia/Magadan date`"
-        git remote add origin https://github.com/crackmag/proxylist.git
+        git remote add origin https://github.com/fastbotovitchROSOLL/FreeProxy-Anonim-VeryAnonim-.git
 
 
     - name: push
